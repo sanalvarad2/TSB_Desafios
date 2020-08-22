@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Lector {
 
-    private String path = "src/Desafio1.lote01/Desafio1.lote01.txt";
+    private String path = "src/Desafio1/lote01/lote01.txt";
     private Scanner sc;
     private List<Long> list;
     private Long[] array;
