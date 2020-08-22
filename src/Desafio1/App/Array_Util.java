@@ -1,4 +1,4 @@
-package App;
+package Desafio1.App;
 
 import java.util.Arrays;
 

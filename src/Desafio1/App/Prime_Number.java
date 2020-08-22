@@ -1,4 +1,4 @@
-package App;
+package Desafio1.App;
 
 public class Prime_Number {
     public static boolean isPrime(Long n){

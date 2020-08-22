@@ -1,13 +1,11 @@
-import App.Array_Util;
-import App.Lector;
-import App.Prime_Number;
+import Desafio1.App.Array_Util;
+import Desafio1.App.Lector;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args){
-        App.Lector lc = new Lector();
+        Desafio1.App.Lector lc = new Lector();
         List<Long> list = lc.getListFromFile();
         //System.out.println(list.get(5000000));
         Long[] ar = lc.getArrayFromList();
