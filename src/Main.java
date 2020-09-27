@@ -1,11 +1,11 @@
 import Desafio1.App.Array_Util;
-import Desafio1.App.Lector;
+import Util.Lector;
 
 import java.util.List;
 
 public class Main {
     public static void main(String[] args){
-        Desafio1.App.Lector lc = new Lector();
+        Lector lc = new Lector();
         List<Long> list = lc.getListFromFile();
         //System.out.println(list.get(5000000));
         Long[] ar = lc.getArrayFromList();
