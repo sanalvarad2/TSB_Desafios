@@ -13,25 +13,26 @@ public class Lector {
     private List<Long> list;
     private Long[] array;
     public Lector() {
-        try {
-            File text = new File(_path);
-            sc = new Scanner(text);
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+        this.Lector(this._path);
     }
     public Lector(String path) {
         this._path = path;
+        this.Lector(path);
+
+    }
+
+    private void Lector(String path){
         try {
-            File text = new File(_path);
+            File text = new File(path);
             sc = new Scanner(text);
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
-    public List<Long> getListFromFile(){
+
+    public List<Long> ReadFile(){
         if(list == null) {
 
             list = new ArrayList<Long>();
